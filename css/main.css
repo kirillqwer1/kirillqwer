@@ -1,0 +1,89 @@
+body{
+
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div, p, button, span, a {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+margin: 0;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+h1 {
+font-size: 50px;
+}
+h2 {
+	font-size: 20px;
+}
+
+section{
+	padding-top: 127px;
+}
+
+.container {
+	width: 1270px;
+	margin: 0 auto;	
+}
+
+.header {
+	background: url('../img/background.jpg') no-repeat center top;
+	height: 769px;
+}
+
+.merits {
+	display: flex;
+	justify-content: space-between;
+	margin: 60px;
+}
+
+.unit  {
+    border: 1.5px solid red;
+}
+.unit h2 {
+	margin-bottom: 5px;
+}
+.photos {
+	margin:80px;
+	margin-bottom: 93px;
+}
+.btn {
+	background: #b41212;
+	color: #000;
+	font-weight: 800px;
+    width: 236px;
+    padding: 18px 0;
+    height: 55px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 0.8s ease;
+}
+
+.btn:hover {
+	background: #ba4747;
+}
+
+.footer {
+	background: #000;
+	color: #fff;
+	font-size: 11px;
+	margin-top: 116px;
+	padding: 35px 0;
+}
+
+.footer-text {
+	display:flex;
+}
+
+.footer-item{
+	margin-right: 250px;
+
+}
